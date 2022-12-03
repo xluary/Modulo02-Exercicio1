@@ -26,7 +26,7 @@ public class Turma {
             System.out.println("Não existem alunos cadastrados!");
         } else {
             for(int i=0; i<qAlunos; i++){
-                System.out.println(" Nome do Aluno: "+ alunos.get(i).getNome() + " Nota 1: "+ alunos.get(i).getNota().getNota1() + " Nota 2: "+ alunos.get(i).getNota().getNota2());
+                System.out.println("Nome do Aluno: "+ alunos.get(i).getNome() + "      Nota 1: "+ alunos.get(i).getNota().getNota1() + "       Nota 2: "+ alunos.get(i).getNota().getNota2());
             }
         }
 
